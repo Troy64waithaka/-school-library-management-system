@@ -1,0 +1,48 @@
+{
+  "name": "school-library-management-system",
+  "version": "1.0.0",
+  "description": "A premium web-based School Library Management System for Kenyan schools supporting CBC and 8-4-4 curricula",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "firebase": "^10.7.0",
+    "tailwindcss": "^3.4.0",
+    "framer-motion": "^10.16.0",
+    "react-icons": "^4.12.0",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "jspdf": "^2.5.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
+  },
+  "keywords": [
+    "library",
+    "school",
+    "management",
+    "kenya",
+    "cbc",
+    "8-4-4",
+    "dashboard",
+    "books",
+    "borrowing"
+  ],
+  "author": "Troy64waithaka",
+  "license": "MIT"
+}
